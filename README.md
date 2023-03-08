@@ -73,5 +73,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://github.com/JoZeng)
-- Linkedin [@your-twitter](https://www.linkedin.com/in/jozeng21/)
+- GitHub [https://github.com/JoZeng](https://github.com/JoZeng)
+- Linkedin [https://github.com/JoZeng](https://www.linkedin.com/in/jozeng21/)
