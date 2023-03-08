@@ -1,0 +1,159 @@
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  margin: 110px 0px 0px 243px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+  gap: 215px;
+  height: 100%;
+}
+
+.subcard {
+  width: 439px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#span1 {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  color: #000000;
+}
+
+#span2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#span3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #000000;
+}
+
+.card-master {
+  display: flex;
+  flex-direction: row;
+  gap: 67px;
+  margin-top: 96px;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.subcard1,
+.subcard2,
+.subcard3,
+.subcard4,
+.subcard5,
+.subcard6 {
+  display: flex;
+  flex-direction: row;
+  height: 383px;
+}
+
+.subcard2,
+.subcard5 {
+  margin-top: 96px;
+}
+
+.subcard-img1,
+.subcard-img2,
+.subcard-img3 {
+  width: 238px;
+  height: 347px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 10px;
+}
+
+.subcard-img1 p,
+.subcard-img2 p,
+.subcard-img3 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #000000;
+}
+
+.subcard-img1 img,
+.subcard-img2 img,
+.subcard-img3 img {
+  width: 238px;
+  height: 426.5px;
+}
+
+#job {
+  writing-mode: vertical-lr;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #000000;
+}
+
+footer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #a9a9a9;
+  margin-top: 115px;
+  margin-right: 50px;
+  height: 40px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .container-cards {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    margin-top: 71px;
+  }
+
+  .card-master {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 209px;
+    gap: 38px;
+  }
+
+  .subcard5 {
+    margin-top: 0px;
+  }
+
+  .subcard4,
+  .subcard6 {
+    margin-top: 96px;
+  }
+}
